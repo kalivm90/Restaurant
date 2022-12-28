@@ -17,6 +17,7 @@
 body {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 /* HEAD */
@@ -98,6 +99,7 @@ body {
     gap: 20px;
     background-color: rgb(181, 181, 181);
     border-radius: 10px;
+    margin-bottom: 100px;
 }
 
 .jumbo {
@@ -129,7 +131,6 @@ body {
 }
 
 .cards {
-    /* background-color: blue; */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     justify-items: center;
@@ -138,7 +139,6 @@ body {
 
 .items {
     width: min-content;
-
     padding: 20px;
     background-color: lightgrey;
     display: flex;
@@ -182,6 +182,7 @@ body {
 /* MENU */
 .menu {
     width: 95%;
+    margin-bottom: 100px;
 }
 
 .menu img {
@@ -233,6 +234,7 @@ body {
 .about {
     padding-top: 20px;
     width: 90%;
+    margin-bottom: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
     display: flex;
@@ -270,6 +272,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .content-container h2 {
     text-align: center;
     font-size: 2em;
@@ -285,10 +288,13 @@ body {
     height: 100%;
 }
 
-
+/* FOOTER */
 .foot {
     width: 100vw;
     height: 75px;
+    position: absolute;
+    bottom: 0;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -305,7 +311,6 @@ body {
 #footer-img {
     width: 25px;
     height: auto;
-    fill: black !important;
 }
 
 
